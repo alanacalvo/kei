@@ -1,10 +1,12 @@
 import './Home.scss'
+import '../../Components/Intro/Intro'
+
 
 function Home() {
   return (
-    <div className='intro'>
-      <h1>KEETON ENTERPRISES</h1>
-      <h2>A good home starts with a good foundation.</h2>
+    <div className='home'>
+      <Intro />
+      <img src="assets/kei-house.jpeg" alt="" />
     </div>
   )
 }

@@ -6,7 +6,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      
+      <div className='sections'>
       <Home />
+    
+      </div>
+
     </div>
   );
 }

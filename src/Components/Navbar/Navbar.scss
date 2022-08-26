@@ -5,26 +5,6 @@
   justify-content: space-between;
   height: 10%;
   margin: 30px;
-}
+  flex-direction: column;
 
-.logoContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.logo {
-  width: 150px;
-  height: 130px;
-}
-
-.navLinks {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 30%;
-  font-size: 20px;
-  // text-decoration: none;
-  // color: white;
 }

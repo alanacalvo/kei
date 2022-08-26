@@ -1,15 +1,11 @@
 import './Navbar.scss'
-import logo from './logo.png'
+import Logo from '../Logo/Logo'
 import NavLinks from '../NavLinks/NavLinks'
 
 function Navbar() {
   return (
     <div className="navContainer">
-      <div className="logoContainer">
-        <a href="#home">
-          <img src={logo} className='logo'/>
-        </a>
-      </div>
+      <Logo />
       <NavLinks />
     </div>
   )
