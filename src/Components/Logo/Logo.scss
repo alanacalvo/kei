@@ -1,12 +1,11 @@
 @import '../../global.scss';
 
 .logoContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  margin: 5px;
 
-.logo {
-  width: 150px;
-  height: 130px;
+
+  img {
+    width: 140px;
+    height: 120px;
+  }
 }

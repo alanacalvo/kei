@@ -1,4 +1,5 @@
 import './App.scss';
+import './Views/Home/Home.scss'
 import Home from './Views/Home/Home';
 import Navbar from './Components/Navbar/Navbar'
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       
-      <div className='sections'>
+      <div className='section'>
       <Home />
     
       </div>

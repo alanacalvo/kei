@@ -1,4 +1,4 @@
-import React from 'react'
+import './NavLinks.scss'
 
 function NavLinks() {
   return (
