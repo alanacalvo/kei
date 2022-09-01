@@ -1,18 +1,15 @@
 import './Home.scss'
-import '../../Components/Intro/Intro'
+import Intro from '../../Components/Intro/Intro'
+import HomeImages from '../../Components/HomeImages/HomeImages';
+import bgImg from '../../images/bgImg.jpeg';
 
 
 function Home() {
   return (
-    <>
-      <div className="intro">
-        <h1>KEETON ENTERPRISES</h1>
-        <h2>A good home starts with a strong foundation.</h2>
-      </div>
-      <div className='home'>
-        <img src="assets/kei-house.jpeg" alt="" />
-      </div>
-    </>
+    <div className='home'>
+      <Intro />
+      <HomeImages />
+    </div>
   )
 }
 

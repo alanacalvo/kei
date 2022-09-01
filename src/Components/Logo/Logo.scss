@@ -1,8 +1,11 @@
 @import '../../global.scss';
 
 .logoContainer {
-  margin: 5px;
-
+  // padding-left: 25px;
+  display: flex;
+  border: gold 2px solid;
+  justify-content: center;
+  align-items: center;
 
   img {
     width: 140px;

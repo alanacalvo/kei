@@ -1,0 +1,19 @@
+@import '../../global.scss';
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+  width: 100vw;
+  border: 1px solid gold;
+  // margin: 100px;
+  // padding: 100px;
+  
+  .img1 {
+    width:70%;
+    height: 60%;
+  }
+
+
+}

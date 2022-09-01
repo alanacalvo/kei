@@ -1,19 +1,36 @@
 @import './global.scss';
 
 body {
-  // background-image: url("concrete-background.png");
-  // background-repeat: repeat;
-  // background-size: cover;
+  font-family: 'Josefin Slab', serif;
   margin: 0;
 }
-
+.background {
+  height: 100vh;
+  width: 100vw;
+}
 .App {
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 
-  .section {
-    width: 100%;
-    height: calc(100vh - 85px);
+
+  .bgImgWrapper {
+    overflow: hidden;
     position: relative;
-    top: 95px;
+
+    .bgImg {
+      opacity: .6;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 3000px;
+      height: 3000px;
+      z-index: -1;
+    }
+
+    .bgContent {
+      // position: relative;
+      // width: 100%;
+      // height: 100%;
+    }
   }
 }

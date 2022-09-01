@@ -1,12 +1,24 @@
 import './NavLinks.scss'
+import { Link } from 'react-router-dom';
 
 function NavLinks() {
   return (
     <div className="navLinks">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
+      <Link to={'/'}>
+        <p>Home</p>
+      </Link>
+      <Link to={'/about'}>
+        <p>About</p>
+      </Link>
+      <Link to={'/gallery'}>
+        <p>Gallery</p>
+      </Link>
+      <Link to={'/contact'}>
+        <p>Contact</p>
+      </Link>
+      <Link to={'/scheduleestimate'}>
+        <p>Schedule Estimate</p>
+      </Link>
     </div>
   )
 }

@@ -1,1 +1,31 @@
 @import '../../global.scss';
+
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: $maincolor solid 5px;
+  border-radius: 15px;
+  background-color: #cbcbcb;
+  background-size: 5px 5px;
+  background-image: radial-gradient(#a3a3a3 1%, transparent 4%);
+  width: 60%;
+  height: 600px;
+  color: $maincolor;
+  padding: 30px;
+
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}

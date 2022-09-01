@@ -1,0 +1,12 @@
+.mainImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gold;
+  margin: 100px;
+  
+  img {
+    width:50%;
+    height: 30%;
+  }
+}
