@@ -8,16 +8,16 @@ function HomeImages() {
         src="assets/kei-house.jpeg" 
         alt="" 
         />
-      {/* <img
+      <img
         className='img2'
-        src="assets/kei-house.jpeg" 
+        src="assets/active-pour.jpg" 
         alt="" 
         />
       <img
         className='img3'
-        src="assets/kei-house.jpeg" 
+        src="assets/fresh-driveway.jpg" 
         alt="" 
-        /> */}
+        />
     </div>
   )
 }

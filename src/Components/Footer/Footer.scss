@@ -1,0 +1,20 @@
+@import '../../global.scss';
+
+.footerContainer {
+  height: 450px;
+  width: 100%;
+  background-color: $maincolor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  .logoContainer {
+    border-radius: 5px;
+  }
+
+  .navLinks {
+    
+  }
+}

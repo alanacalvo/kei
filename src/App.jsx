@@ -6,6 +6,7 @@ import About from './Views/About/About'
 import Gallery from './Views/Gallery/Gallery'
 import Contact from './Views/Contact/Contact'
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           </Routes>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
     

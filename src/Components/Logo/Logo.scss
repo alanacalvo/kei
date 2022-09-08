@@ -3,12 +3,13 @@
 .logoContainer {
   // padding-left: 25px;
   display: flex;
-  border: gold 2px solid;
+  // border: gold 2px solid;
   justify-content: center;
   align-items: center;
-
+  
   img {
     width: 140px;
     height: 120px;
+    border-radius: 10px;
   }
 }
