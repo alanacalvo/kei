@@ -3,35 +3,44 @@
 .images {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   width: 90vw;
-
-  .images:scroll {
-    
-  }
   
-  .img1 {
-    width:100%;
-    height: 65%;
-    border-radius: 15px;
-    margin: 10px;
-    // box-shadow: -10px -10px 12px $bgc inset;
+  .mainImg {
+    display: flex;
+    justify-content: center;
+
+    .img1 {
+      width:60%;
+      height: 65%;
+      border-radius: 15px;
+      margin: 10px;
+      // box-shadow: -10px -10px 12px $bgc inset;
+    }
   }
 
-  .img2 {
-    width: 800px;
-    height: 525px;
-    border-radius: 15px;
-    margin: 20px;
+  .otherImgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 388.78px;
 
-  }
-
-  .img3 {
-    width: 800px;
-    height: 525px;
-    border-radius: 15px;
-    margin: 20px;
-
+    .img2 {
+      width: 30%;
+      // height: 388.78px;
+      border-radius: 15px;
+      margin: 20px;
+      margin-right: 50px;
+      
+    }
+    
+    .img3 {
+      width: 30%;
+      // height: 388.78px;
+      border-radius: 15px;
+      margin: 20px;
+      margin-left: 50px;
+    }
   }
 }
