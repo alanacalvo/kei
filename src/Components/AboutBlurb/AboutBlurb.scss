@@ -1,2 +1,39 @@
 @import '../../global.scss';
 
+.aboutBlurb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  margin: 100px;
+  flex-direction: column;
+
+  .owners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .concrete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+    padding-right: 50px
+  }
+
+  p {
+    color: $maincolor;
+    font-size: 25px;
+  }
+}

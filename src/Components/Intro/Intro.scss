@@ -7,12 +7,18 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  border: $maincolor solid 5px;
-  border-radius: 15px;
-  background-color: #cbcbcb;
-  background-size: 5px 5px;
-  background-image: radial-gradient(#a3a3a3 1%, transparent 4%);
-  width: 60%;
+  // border: $maincolor solid 5px;
+  // border-radius: 15px;
+  // background-color: #cbcbcb;
+  // background-size: 5px 5px;
+  // background-image: radial-gradient(#a3a3a3 1%, transparent 4%);
+
+
+  // background-image: url('../../images/kei-slab-pour2.jpeg');
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size:cover;
+  width: 50vw;
   height: 600px;
   color: $maincolor;
   padding: 30px;

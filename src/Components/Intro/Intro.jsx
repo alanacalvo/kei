@@ -1,11 +1,19 @@
-import './Intro.scss'
+import './Intro.scss';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Intro() {
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, [])
+
   return (
     <div className="intro">
-      <h1>Keeton Enterprises Inc.</h1>
-      <h2>A good home starts with a solid foundation.</h2>
-      <p>Serving Central Florida quality concrete and masonry work for over 40 years.
+      <h1 data-aos="fade-left">Keeton Enterprises Inc.</h1>
+      <h2 data-aos="fade-left">A good home starts with a solid foundation.</h2>
+      <p data-aos="fade-left">Serving Central Florida quality concrete and masonry work for over 40 years.
         Head here to schedule your free estimate!
       </p>
     </div>

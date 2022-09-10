@@ -1,10 +1,11 @@
-import React from 'react'
+import './About.scss'
 import AboutBlurb from '../../Components/AboutBlurb/AboutBlurb'
 
 function About() {
   return (
-    <div>
+    <div className='about'>
       <AboutBlurb />
+      {/* <AboutBlurb /> */}
     </div>
   )
 }

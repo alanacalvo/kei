@@ -1,8 +1,11 @@
-import React from 'react'
+import './Contact.scss'
+import EstimateForm from '../../Components/EstimateForm/EstimateForm'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='contact'>
+      <EstimateForm />
+    </div>
   )
 }
 

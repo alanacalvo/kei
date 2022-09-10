@@ -14,7 +14,6 @@ function App() {
 
       <div className="App">
           <Navbar />
-
         <div className="bgImgWrapper">
           <img className='bgImg' src={bgImg} />
           <div className='bgContent'>
