@@ -14,7 +14,7 @@ function Intro() {
       <h1 data-aos="fade-left">Keeton Enterprises Inc.</h1>
       <h2 data-aos="fade-left">A good home starts with a solid foundation.</h2>
       <p data-aos="fade-left">Serving Central Florida quality concrete and masonry work for over 40 years.
-        Head here to schedule your free estimate!
+        Click <a href='/contact'>here</a> to request a free estimate!
       </p>
     </div>
   )

@@ -1,20 +1,14 @@
 @import '../../global.scss';
 
-.formContainer {
+form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 500px;
   height: 600px;
-  border: gold 2px solid;
   margin: 100px;
+  color: $maincolor;
+  font-weight: bolder;
 
-  input {
-    display: flex;
-    flex-direction: column;
-    height: 30px;
-    width: 200px;
-    margin: 50px;
-  }
 }

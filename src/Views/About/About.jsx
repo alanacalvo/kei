@@ -5,7 +5,6 @@ function About() {
   return (
     <div className='about'>
       <AboutBlurb />
-      {/* <AboutBlurb /> */}
     </div>
   )
 }
