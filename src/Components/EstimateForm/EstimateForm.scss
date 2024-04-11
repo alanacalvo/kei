@@ -1,14 +1,15 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
 form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 500px;
-  height: 600px;
-  margin: 100px;
-  color: $maincolor;
-  font-weight: bolder;
-
+}
+.formSubmitted {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
